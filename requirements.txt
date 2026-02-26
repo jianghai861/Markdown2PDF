@@ -1,3 +1,9 @@
-PyQt5==5.15.9
-mdpdf==0.0.18
-pyinstaller==5.13.0
+# Markdown转PDF工具依赖包
+# 核心功能依赖
+markdown2>=2.4.0
+pdfkit>=1.0.0
+PyQt5>=5.15.0
+
+# 可选依赖（用于增强功能）
+# reportlab>=3.6.0  # 用于备用PDF生成方案
+# weasyprint>=52.0  # CSS更完整的PDF渲染引擎
